@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ماهرون | الاستيكرات والزجاج السكريت</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;600&display=swap" rel="stylesheet">
+
+<style>
+body {
+    margin: 0;
+    font-family: 'Cairo', sans-serif;
+    background: #0f172a;
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px;
+    background: #020617;
+}
+
+header h1 {
+    color: #38bdf8;
+}
+
+nav a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.hero {
+    height: 90vh;
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),
+    url('https://images.unsplash.com/photo-1524758631624-e2822e304c36');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.hero h2 {
+    font-size: 40px;
+}
+
+.btn {
+    background: #38bdf8;
+    padding: 12px 25px;
+    border-radius: 8px;
+    margin-top: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    background: #1e293b;
+    margin: 15px;
+    padding: 25px;
+    width: 260px;
+    border-radius: 12px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.gallery img {
+    width: 250px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+form input, form textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 6px;
+    border: none;
+}
+
+footer {
+    background: black;
+    padding: 20px;
+    text-align: center;
+}
+
+.whatsapp {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    background: #25D366;
+    color: white;
+    padding: 15px;
+    border-radius: 50%;
+    text-decoration: none;
+    font-size: 20px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>ماهرون</h1>
+<nav>
+<a href="#">الرئيسية</a>
+<a href="#services">الخدمات</a>
+<a href="#gallery">الأعمال</a>
+<a href="#contact">تواصل</a>
+</nav>
+</header>
+
+<div class="hero">
+<h2>حلول احترافية للاستيكرات والزجاج</h2>
+<p>تصميم | طباعة | تركيب</p>
+<a href="#contact" class="btn">اطلب الآن</a>
+</div>
+
+<div class="section" id="services">
+<h2>خدماتنا</h2>
+<div class="cards">
+
+<div class="card">
+<h3>استيكر ثلجي</h3>
+<p>خصوصية وأناقة للمكاتب والمنازل</p>
+</div>
+
+<div class="card">
+<h3>زجاج سكريت</h3>
+<p>تفصيل وتركيب عالي الجودة</p>
+</div>
+
+<div class="card">
+<h3>تصميم وطباعة</h3>
+<p>تصاميم مخصصة حسب الطلب</p>
+</div>
+
+</div>
+</div>
+
+<div class="section" id="gallery">
+<h2>أعمالنا</h2>
+<div class="gallery">
+<img src="https://images.unsplash.com/photo-1503387762-592deb58ef4e">
+<img src="https://images.unsplash.com/photo-1497366216548-37526070297c">
+<img src="https://images.unsplash.com/photo-1524758631624-e2822e304c36">
+</div>
+</div>
+
+<div class="section" id="contact">
+<h2>اطلب عرض سعر</h2>
+<form>
+<input type="text" placeholder="الاسم">
+<input type="text" placeholder="رقم الجوال">
+<textarea placeholder="تفاصيل الطلب"></textarea>
+<br>
+<button class="btn">إرسال</button>
+</form>
+</div>
+
+<footer>
+<p>© 2026 جميع الحقوق محفوظة - ماهرون</p>
+</footer>
+
+<a class="whatsapp" href="https://wa.me/96657 838 0442">💬</a>
+
+</body>
+</html>
